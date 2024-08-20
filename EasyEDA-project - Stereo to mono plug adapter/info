@@ -1,0 +1,132 @@
+{
+  "uuid": "496563804154213069a8aeaf821d069e",
+  "path": "Offline/Stereo%20to%20mono%20plug%20adapter",
+  "name": "Stereo to mono plug adapter",
+  "content": "",
+  "created_at": "2024-08-21 00:57:21",
+  "updated_at": "2024-08-21 04:51:12",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5b82e6ab05cb5386974fdda5f14a612c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ed9eb2faffb34286820a54a14e9e9e24": 2,
+        "83429d2d91a747fcbb9b58462e97334f": 1,
+        "5b98f383166248f68eedcc28e3cc840d": 3,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CONN PLUG STEREO 3.5MM RA 3COND",
+          1,
+          "TENSILITY INTERNATIONAL CORP 54-00036",
+          "J1",
+          {
+            "Manufacturer": "Tensility International Corp",
+            "Manufacturer Part": "54-00036",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "839-1240-ND",
+            "link": "https://www.digikey.com.au/en/products/detail/tensility-international-corp/54-00036/5609421",
+            "Contributor": "philbobagins",
+            "spiceSymbolName": "CONN PLUG STEREO 3.5MM RA 3COND",
+            "puuid": "25b0ee757f614bd29e05049281066cba",
+            "uuid": "83429d2d91a747fcbb9b58462e97334f"
+          }
+        ],
+        [
+          "Switchcraft 35RAPC2AV",
+          3,
+          "SWITCHCRAFT_35RAPC2AV",
+          "J2,J3,J4",
+          {
+            "Contributor": "Samuel Legros",
+            "timeStamp": "1473434002",
+            "sourceId": "z3ecMKkUt",
+            "Manufacturer Part": "35RAPC2AV",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "SC1457-ND",
+            "Manufacturer": "Switchcraft",
+            "link": "http://www.switchcraft.com/Drawings/35rapc2av_cd.pdf",
+            "spiceSymbolName": "Switchcraft 35RAPC2AV",
+            "puuid": "230c4772539d48ec9fd977f63bf4c867",
+            "uuid": "5b98f383166248f68eedcc28e3cc840d"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0805",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R_AXIAL-0.3",
+          "R3,R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ]
+      ],
+      "updateTime": 1724179872,
+      "createTime": 1724165841,
+      "histories": [],
+      "created_at": "2024-08-21 00:57:21",
+      "updated_at": "2024-08-21 04:51:12"
+    },
+    {
+      "uuid": "6dfba52128db5f694d7acb155a2af663",
+      "puuid": "496563804154213069a8aeaf821d069e",
+      "title": "PCB_Stereo to mono plug adapter",
+      "filename": "PCB_Stereo to mono plug adapter.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3eb1249f3ebb4284ae221b0379016582": 2,
+        "230c4772539d48ec9fd977f63bf4c867": 3,
+        "25b0ee757f614bd29e05049281066cba": 1,
+        "b60f399a7a7e41848b2be1eb49c79141": 2
+      },
+      "BOM": [],
+      "updateTime": 1724179410,
+      "createTime": 1724167971,
+      "histories": [],
+      "created_at": "2024-08-21 01:32:51",
+      "updated_at": "2024-08-21 04:43:30"
+    }
+  ],
+  "sort": [],
+  "title": "Stereo to mono plug adapter",
+  "foldername": "Stereo to mono plug adapter",
+  "schfilename": "Stereo to mono plug adapter.json",
+  "schfilemtime": 1724179872233
+}
